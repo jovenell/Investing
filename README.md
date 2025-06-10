@@ -1,0 +1,1 @@
+In each of the different folders are financial projects I've been working on.
