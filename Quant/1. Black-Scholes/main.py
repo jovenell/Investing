@@ -2,8 +2,19 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import norm
 
+# delta - sensitivity of option to change in price of the underlying
+# gamma - rate of change of delta
+# vega - sensitivity of option to change in volatility in the underlying
+# theta - time decay
+# rho - sensitivity of option to change in risk free rate
+
 def main():
-    S = float(input('Please enter the price: '))
+    while:
+        try:
+            S = float(input('Please enter the price: '))
+            break
+        except:
+            pass
     K = float(input('Please enter the strike price: '))
     T = float(input('Please enter the time until expiration in years: '))
     R = float(input('Please enter the risk free rate: '))
